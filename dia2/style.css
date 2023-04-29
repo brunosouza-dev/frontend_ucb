@@ -1,0 +1,88 @@
+body {
+  background-color: #041424;
+  color: white;
+  font-family: helvetica;
+}
+
+h1 {
+  color: #ffedbc;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+li {
+  color: #87ceeb;
+}
+
+
+.listaUL {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#listaOL {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+input {
+  border-radius: 3px;
+  margin: 5px;
+}
+
+textarea {
+  border-radius: 3px;
+  margin: 5px;
+}
+
+.buttons {
+  margin-top: 5px;
+}
+
+legend {
+  color: #87ceeb;
+}
+
+button {
+  background-color: white; /* cor de fundo do botão */
+  border: none; /* borda do botão */
+  border-radius: 3px;
+  color: black; /* cor do texto do botão */
+  padding: 5px; /* espaço interno do botão */
+  text-align: center; /* alinhamento do texto no botão */
+  text-decoration: none; /* decoração do texto do botão */
+  display: inline-block; /* exibição do botão como bloco */
+  font-size: 16px; /* tamanho do texto do botão */
+  margin: 4px 4px; /* margem do botão */
+  cursor: pointer;
+}
+
+#enviarFormularioBtn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+#limparBtn {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 4px;
+  cursor: pointer;
+}
+
+#inputTypes {
+  margin-top: 25px;
+}

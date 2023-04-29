@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Formulários e CSS</title>
+
+  <link rel="stylesheet" href="/style.css"></link>
+</head>
+<body>
+  <div class="listaUL">
+    <h1>LISTA NÃO ORDENADA</h1>
+    <ul>
+      <li>Café</li>
+      <li>Cereal</li>
+      <li>Leite</li>
+      <li>Arroz</li>
+    </ul>
+  </div>
+
+  <div id="listaOL">
+    <h1>LISTA ORDENADA</h1>
+    <ol>
+      <li>Café</li>
+      <li>Cereal</li>
+      <li>Leite</li>
+      <li>Arroz</li>
+    </ol>
+  </div>
+
+  <h1>FORMULÁRIO</h1>
+
+  <fieldset>
+    <legend>Formulário de contato</legend>
+    <form action="">
+      <label for="txtName">Nome Completo:</label>
+      <input type="text" id="txtName" name="txtName"> <br>
+      
+      <label for="txtTelefone">Telefone:</label>
+      <input type="text" id="txtTelefone" name="txtTelefone"> <br>
+      
+      <label for="txtEmail">E-mail:</label>
+      <input type="text" id="txtEmail" name="txtEmail"> <br>
+      
+      <label for="txtMotivo">Motivo de Contato:</label>
+      <select name="txtMotivo" id="txtMotivo">
+        <option value="">Selecione</option>
+        <option value="Dúvida">Dúvida</option>
+        <option value="Elogio">Elogio</option>
+        <option value="Reclamação">Reclamação</option>
+      </select> <br>
+
+      <label for="txtMensagem">Mensagem:</label>
+      <textarea name="txtMensagem" id="txtMensagem" cols="25" rows="4" placeholder="Digite a mensagem..."></textarea> <br>
+
+      <div class="buttons">
+        <input type="submit" value="Enviar Formulário" id="enviarFormularioBtn"> 
+        <button type="button" onclick="alert('Você clicou!')">Clique Aqui</button>
+        <input type="reset" value="Limpar" id="limparBtn">
+      </div>
+    </form> 
+  </fieldset>
+
+  <fieldset id="inputTypes">
+    <legend>Tipos de Input</legend>
+    <input type="checkbox" style="padding: 5px;"> Jornal <br>
+    <input type="radio" id="sxM"> Masculino
+    <input type="radio" id="sxF"> Feminino <br>
+    <input type="color"> <br>
+    <input type="date"> <br>
+    <input type="datetime-local"> <br>
+    <input type="time"> <br>
+    <input type="file"> <br>
+    <input type="hidden"> <br>
+    <input type="number"> <br>
+    <input type="password"> <br>
+    <input type="range"> <br>
+    <input type="week"> <br>
+  </fieldset>
+</body>
+</html>
